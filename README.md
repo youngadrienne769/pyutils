@@ -11,11 +11,25 @@ Minimal CLI; no magic, just code.
 - readable source
 
 
+## Project structure
+```
+.
+├── src/
+│   ├── index.ts
+│   └── utils.ts
+├── .gitignore
+├── LICENSE
+├── README.md
+├── package.json
+└── tsconfig.json
+```
+
 ## Usage
 
 ```bash
-python3 main.py
+npx ts-node src/index.ts
 ```
+
 
 ## Notes
 
